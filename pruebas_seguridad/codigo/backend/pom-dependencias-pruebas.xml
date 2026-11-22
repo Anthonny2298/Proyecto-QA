@@ -1,0 +1,15 @@
+<!--
+  Dependencias de prueba que necesitan las pruebas de seguridad de BD (Testcontainers).
+  Copiar dentro de <dependencies> del pom.xml del backend. Las versiones las gestiona
+  spring-boot-starter-parent 3.4.5; no hace falta indicarlas.
+-->
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>mysql</artifactId>
+    <scope>test</scope>
+</dependency>
